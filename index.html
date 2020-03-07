@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- main css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="css/all.css">
+    <title>Grandma's Project</title>
+    <style>
+    </style>
+  </head>
+
+  <body>
+    <header id="header">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg px-4">
+          <a href="#" class="navbar-brand">
+            <img src="img/perfume.svg" class="navbar-brand" alt="main-icon">
+          </a>
+          <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#myNavbar">
+            <span class="toggler-icon">
+              <i class="fas fa-bars"></i>
+            </span>
+          </button>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="navbar-nav text-capitalize mx-auto">
+              <li class="nav-item active">
+                <a href="#header" class="nav-link">home</a>
+              </li>
+              <li class="nav-item active">
+                <a href="#about" class="nav-link">about</a>
+              </li>
+              <li class="nav-item active">
+                <a href="#store" class="nav-link">store</a>
+              </li>
+              <li class="nav-item active">
+                <a href="#services" class="nav-link">services</a>
+              </li>
+              <li class="nav-item active">
+                <a href="#custom" class="nav-link">order</a>
+              </li>
+            </ul>
+            <div class="nav-info-items d-none d-lg-flex">
+              <div class="nav-info align-items-center d-flex justify-content-between mx-lg-5">
+                <span class="info-icon mx-lg-3">
+                  <i class="fas fa-phone"></i>
+                </span>
+                <p class="mb-0">+ 353 532 492</p>
+              </div>
+              <div id="cart-info" class="nav-info align-items-center cart-info d-flex justify-content-between mx-lg-5">
+                <span class="cart-info__icon mr-lg-3">
+                  <i class="fas fa-shopping-cart"></i>
+                </span>
+                <p class="mb-0 text-capitalize">
+                  <span id="item-count">2</span>
+                  items - $
+                  <span class="item-total">290</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <!-- banner -->
+
+      <div class="container-fluid">
+        <div class="row max-height justify-content-center align-items-center">
+          <div class="col-10 mx-auto banner text-center">
+            <h1 class="text-capitalize">
+              welcome to <strong class="banner-title">profumo</strong>
+            </h1>
+            <a href="#store" class="btn banner-link text-uppercase my-2">explore</a>
+          </div>
+
+          <!-- cart -->
+
+          <div class="cart" id="cart">
+            <div class="cart-item d-flex text-capitalize my-3">
+              <img src="img/kurkdijan.jfif" class="img-fluid rounded-circle" id="item-img" alt="circle-img">
+              <div class="item-text">
+                <p id="cart-item-title" class="font-weight-bold mb-0 mx-4">M.F.Kurkdijan Petit Matin</p>
+                  <spa class="ml-4">$</span>
+                  <span id="cart-item-price" class="cart-item-price mb-0">225</span>
+              </div>
+              <a href="#" id="cart-item-remove" class="cart-item-remove">
+                <i class="fas fa-trash"></i>
+              </a>
+            </div>
+            <hr>
+            <div class="cart-item d-flex text-capitalize my-3">
+              <img src="img/si.jfif" class="img-fluid rounded-circle" id="item-img" alt="circle-img">
+              <div class="item-text">
+                <p id="cart-item-title" class="font-weight-bold mb-0 mx-4">Giorgio Armani Si</p>
+                <span class="ml-4">$</span>
+                <span id="cart-item-price" class="cart-item-price mb-0">65</span>
+              </div>
+              <a href="#" id="cart-item-remove" class="cart-item-remove">
+                <i class="fas fa-trash"></i>
+              </a>
+            </div>
+            <hr>
+            <div class="cart-total-container d-flex justify-content-around text-capitalize mt-5">
+              <h5>total</h5>
+              <h5>$ <strong id="cart-total" class="font-weight-bold">290</strong></h5>
+            </div>
+            <div class="card-buttons-container mt-3 d-flex justify-content-around">
+              <a href="#" id="clear-card" class="btn btn-black text-uppercase">clear cart</a>
+              <a href="#" id="checkout" class="btn btn-pink text-uppercase">checkout</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- about -->
+
+    <section class="about py-5" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-10 mx-auto col-md-6 my-5">
+            <h1 class="text-capitalize">
+              about <strong 
+              class="banner-title">us</strong></h1>
+              <p class="my-4 text-muted w-75">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem a laudantium doloremque sint provident sequi excepturi accusantium eius rem tenetur adipisci quibusdam dolores, quae placeat vero iure odio. Ratione, accusamus?
+              </p>
+              <a href="#" class="btn btn-black text-uppercase">explore</a>
+          </div>
+          <div class="col-10 mx-auto col-md-6 my-5 align-self-center">
+            <div class="about-img__container">
+              <img src="img/perfume_info.jfif" class="img-fluid" alt="perfume1">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- store -->
+
+    <section id="store" class="store py-5">
+      <div class="container">
+
+        <!-- section title -->
+
+        <div class="row">
+          <div class="col-10 mx-auto col-sm-6 text-center">
+            <h1 class="text-capitalize">our <strong class="banner-title">store</strong></h1>
+          </div>
+        </div>
+
+        <!-- filter button -->
+
+        <div class="row">
+          <div class="col-lg-8 mx-auto d-flex justify-content-around sortBtn flex-wrap">
+            <a href="#" class="btn btn-black text-uppercase filter-btn m-2" data-filter="all">all</a>
+            <a href="#" class="btn btn-black text-uppercase filter-btn m-2" data-filter="donna">donna</a>
+            <a href="#" class="btn btn-black text-uppercase filter-btn m-2" data-filter="uomo">uomo</a>
+            <a href="#" class="btn btn-black text-uppercase filter-btn m-2" data-filter="unisex">unisex</a>
+            <a href="#" class="btn btn-black text-uppercase filter-btn m-2" data-filter="niche">niche</a>
+          </div>
+        </div>
+
+        <!-- search -->
+
+        <div class="row">
+          <div class="col-10 mx-auto col-md-6 mt-3">
+            <form action="#">
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text search-box" id="search-icon">
+                    <i class="fas fa-search"></i>
+                  </span>
+                </div>
+                <input type="text" class="form-control" id="search-item" placeholder="item...">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <!-- store items -->
+      
+      <div class="container">
+        <div class="row store-items" id="store-items">
+          <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item sweets" data-item="uomo">
+            <div class="card single-item">
+              <div class="img-container">
+                <img src="img/bleu.jfif" alt="bleu" class="card-img-top store-img">
+                <span class="store-item-icon">
+                  <i class="fas fa-shopping-cart"></i>
+                </span>
+              </div>
+              <div class="card-body">
+                <div class="card-text d-flex justify-content-between text-capitalize">
+                  <h5 id="store-item-name">Bleu de Chanel EDP</h5>
+                  <h5 class="store-item">$ <strong id="store-item-price" class="font-weight-bold">55</strong></h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item sweets" data-item="uomo">
+            <div class="card single-item">
+              <div class="img-container">
+                <img src="img/dgone.jfif" alt="dgone" class="card-img-top store-img">
+                <span class="store-item-icon">
+                  <i class="fas fa-shopping-cart"></i>
+                </span>
+              </div>
+              <div class="card-body">
+                <div class="card-text d-flex justify-content-between text-capitalize">
+                  <h5 id="store-item-name">Dolce & Gabbana The ONE</h5>
+                  <h5 class="store-item">$ <strong id="store-item-price" class="font-weight-bold">45</strong></h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item sweets" data-item="donna">
+            <div class="card single-item">
+              <div class="img-container">
+                <img src="img/si.jfif" alt="si" class="card-img-top store-img">
+                <span class="store-item-icon">
+                  <i class="fas fa-shopping-cart"></i>
+                </span>
+              </div>
+              <div class="card-body">
+                <div class="card-text d-flex justify-content-between text-capitalize">
+                  <h5 id="store-item-name">Giorgio Armani Si</h5>
+                  <h5 class="store-item">$ <strong id="store-item-price" class="font-weight-bold">65</strong></h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item sweets" data-item="uomo">
+            <div class="card single-item">
+              <div class="img-container">
+                <img src="img/nautica.jfif" alt="nautica" class="card-img-top store-img">
+                <span class="store-item-icon">
+                  <i class="fas fa-shopping-cart"></i>
+                </span>
+              </div>
+              <div class="card-body">
+                <div class="card-text d-flex justify-content-between text-capitalize">
+                  <h5 id="store-item-name">Nautica Voyage</h5>
+                  <h5 class="store-item">$ <strong id="store-item-price" class="font-weight-bold">40</strong></h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item sweets" data-item="niche">
+            <div class="card single-item">
+              <div class="img-container">
+                <img src="img/kurkdijan.jfif" alt="kurkdijan" class="card-img-top store-img">
+                <span class="store-item-icon">
+                  <i class="fas fa-shopping-cart"></i>
+                </span>
+              </div>
+              <div class="card-body">
+                <div class="card-text d-flex justify-content-between text-capitalize">
+                  <h5 id="store-item-name">M.F.Kurkdijan Petit Matin</h5>
+                  <h5 class="store-item">$ <strong id="store-item-price" class="font-weight-bold">225</strong></h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item sweets" data-item="donna">
+            <div class="card single-item">
+              <div class="img-container">
+                <img src="img/jadore.jfif" alt="jadore" class="card-img-top store-img">
+                <span class="store-item-icon">
+                  <i class="fas fa-shopping-cart"></i>
+                </span>
+              </div>
+              <div class="card-body">
+                <div class="card-text d-flex justify-content-between text-capitalize">
+                  <h5 id="store-item-name">Dior Jadore</h5>
+                  <h5 class="store-item">$ <strong id="store-item-price" class="font-weight-bold">75</strong></h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>   
+    </section>
+
+    <!-- services -->
+
+    <section id="services" class="services py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 text-center my-3">
+            <img class="service-icon" src="img/nail-polish.svg" alt="fragrances">
+            <h6 class="text-uppercase my-3 service-title">fragrances</h6>
+            <p class="w-75 mx-auto text-center service-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nemo placeat rem, sunt impedit unde cumque vero accusantium assumenda distinctio.
+            </p>
+          </div>
+          <div class="col-md-4 text-center my-3">
+            <img class="service-icon" src="img/serum.svg" alt="cosmetics">
+            <h6 class="text-uppercase my-3 service-title">cosmetics</h6>
+            <p class="w-75 mx-auto text-center service-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nemo placeat rem, sunt impedit unde cumque vero accusantium assumenda distinctio.
+            </p>
+          </div>
+          <div class="col-md-4 text-center my-3">
+            <img class="service-icon" src="img/cottage.svg" alt="home">
+            <h6 class="text-uppercase my-3 service-title">home scents</h6>
+            <p class="w-75 mx-auto text-center service-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nemo placeat rem, sunt impedit unde cumque vero accusantium assumenda distinctio.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- services custom -->
+
+    <section id="custom" class="custom py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-10 mx-auto col-sm-10 text-center">
+            <h1 class="text-capitalize">make your<strong class="banner-title">beauty</strong></h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-11 mx-auto col-md-6 col-lg-6 my-4 text-capitalize text-center">
+            <h3 class="py-3">your own fragrance</h3>
+            <img src="img-cart/custompro.jfif" class="custom-service img-fluid rounded-circle" alt="custom-perfume">
+            <div class="text-muted">
+              <p class="my-3 lead">custom label</p>
+              <p class="my-3 lead">choose your notes</p>
+              <p class="my-3 lead">custom size</p>
+              <p class="my-3 lead">best quality</p>
+              <button type="button" class="btn btn-lg btn-pink text-capitalize mb-3">order now</button>
+              <p class="text-lowercase mb-4 lead">starting at $79</p>
+            </div>
+          </div> 
+          <div class="col-11 mx-auto col-md-6 col-lg-6 my-4 text-capitalize text-center">
+            <h3 class="py-3">wedding make-up</h3>
+            <img src="img-cart/makeup.jfif" class="custom-service img-fluid rounded-circle" alt="makeup">
+            <div class="text-muted">
+              <p class="my-3 lead">only best makeup artists</p>
+              <p class="my-3 lead">the best equipment</p>
+              <p class="my-3 lead">also in your home</p>
+              <p class="my-3 lead">test makeup</p>
+              <button type="button" class="btn btn-lg btn-pink text-capitalize mb-3">order now</button>
+              <p class="text-lowercase mb-4 lead">starting at $125</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- footer -->
+    
+    <footer>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6 footer-title py-5">
+            <h1 class="text-capitalize text-center">
+              <strong class="banner-title">profumo</strong>
+            </h1>
+            <div class="footer-icons mt-3 d-flex justify-content-center">
+              <a href="#" class="footer-icon mx-5">
+                <i class="fab fa-facebook"></i>
+              </a>
+              <a href="#" class="footer-icon mx-5">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#" class="footer-icon mx-5">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="#" class="footer-icon mx-5">
+                <i class="fab fa-pinterest"></i>
+              </a>
+            </div>
+            <p class="icons-agree text-muted text-center mt-4">
+              Icons made by <a href="https://www.flaticon.com/authors/nhor-phai" 
+              title="Nhor Phai">Nhor Phai</a> from <a href="https://www.flaticon.com/" 
+              title="Flaticon"> www.flaticon.com</a>
+            </p>
+          </div>
+          <div class="col-md-6 footer-contact p-5 text-center text-capitalize">
+            <h3 class="mb-5">contact</h3>
+            <p class="d-flex flex-wrap justify-content-center">
+              <span class="mr-4 footer-contact-icon">
+                <i class="fas fa-home"></i>
+              </span>
+              <span class="d-flex align-items-center">
+                via Po 34, Torino
+              </span>
+            </p>
+            <p class="d-flex flex-wrap justify-content-center">
+              <span class="mr-4 footer-contact-icon">
+                <i class="fas fa-phone"></i>
+              </span>
+              <span class="d-flex align-items-center">
+                + 353 532 492
+              </span>
+            </p>
+            <p class="d-flex flex-wrap justify-content-center">
+              <span class="mr-4 footer-contact-icon">
+                <i class="fas fa-envelope"></i>
+              </span>
+              <span class="text-lowercase d-flex align-items-center">
+                profumo@mail.it
+              </span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- jquery -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- script js -->
+    <script src="js/app.js"></script>
+  </body>
+
+</html>
+
